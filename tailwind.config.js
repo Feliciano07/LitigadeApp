@@ -11,6 +11,10 @@ export default {
           500: '#784F33',
         },
       },
+      height: {
+        '120': '30rem',
+        '128': '32rem',
+      },
     },
     fontFamily: {
       serif: ['Merriweather', 'serif'],
