@@ -1,4 +1,4 @@
-import React from 'react'
+
 
 export const ContactUsPage = () => {
     return (
@@ -8,8 +8,7 @@ export const ContactUsPage = () => {
                 className="flex-grow h-4/5 flex items-center px-4 sm:px-6 lg:px-8"
                 style={{ backgroundImage: "url('/public/assets/contact.jpeg')", backgroundSize: 'cover', backgroundPosition: 'center' }}
             >
-                {/* Contenido centrado */}
-                <div className="w-full p-8 rounded-lg">
+                <div className="w-full py-8 px-20 rounded-lg">
                     {/* Encabezado */}
                     <div className="text-left mb-12">
                         <h2 className="text-2xl font-medium text-gray-800">Contact Us</h2>
@@ -33,7 +32,6 @@ export const ContactUsPage = () => {
                                     <div className="relative">
                                         <select className="w-full px-4 py-4 border border-gray-300 rounded-md appearance-none" >
                                             <option className="bg-gray-50 bg-opacity-10">Please Select</option>
-                                            {/* Add your department options here */}
                                         </select>
                                         <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
                                             <svg className="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
@@ -44,7 +42,6 @@ export const ContactUsPage = () => {
                                     <div className="relative">
                                         <select className="w-full px-4 py-4 border border-gray-300 rounded-md appearance-none">
                                             <option className="bg-gray-50 bg-opacity-10">4:00 Available</option>
-                                            {/* Add your time options here */}
                                         </select>
                                         <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
                                             <svg className="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
@@ -65,7 +62,7 @@ export const ContactUsPage = () => {
                 </div>
             </div>
             {/* Sección inferior */}
-            <div className="h-1/5 py-8 p-8">
+            <div className="h-1/5 py-8 px-20">
                 <div className="mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row  md:items-start justify-between">
                     <div className="flex flex-col text-left">
                         <div className="flex flex-row">

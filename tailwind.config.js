@@ -10,6 +10,9 @@ export default {
         brown: {
           500: '#784F33',
         },
+        blue_footer: {
+          bf: '#242F4B'
+        }
       },
       height: {
         '120': '30rem',

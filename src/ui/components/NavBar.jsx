@@ -7,7 +7,7 @@ export const NavBar = () => {
 
     return (
         <nav className="md:bg-transparent bg-white">
-            <div className="max-w-7xl mx-auto px-4">
+            <div className="mx-auto px-24">
                 <div className="flex justify-between items-center py-5">
                     {/* Título */}
                     <div className="flex items-center w-3/5">

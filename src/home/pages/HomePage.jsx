@@ -1,6 +1,3 @@
-// src/components/HomePage.js
-
-import React from 'react';
 import { NavBar } from '../../ui';
 
 export const HomePage = () => {
@@ -8,10 +5,10 @@ export const HomePage = () => {
         <div className="relative bg-cover bg-center min-h-screen" style={{ backgroundImage: "url('/public/assets/fondo.jpeg')" }}>
             {/* navbar */}
             <NavBar />
-            {/* Fin del navbar */}
-            <div className="flex flex-col md:flex-row justify-between items-center h-full p-4 md:p-8">
+            {/* container */}
+            <div className="flex flex-col md:flex-row justify-between items-center h-full p-4 md:p-8 mx-5">
                 {/* Mensaje */}
-                <div className="p-8 md:w-1/2 text-justify">
+                <div className="p-12 md:w-1/2 text-justify">
                     <h1 className="text-4xl md:text-6xl font-bold mb-4 text-gray-800">Help to reclaim your life and freedom</h1>
                     <p className="text-md md:text-lg mb-8 text-gray-400">We know how large objects will act, but things on a small scale.</p>
                     <div className="flex flex-col md:flex-row md:space-x-4 space-y-4 md:space-y-0 items-center md:items-start">
@@ -20,7 +17,7 @@ export const HomePage = () => {
                     </div>
                 </div>
                 {/* Formulario */}
-                <div className="bg-white p-8 rounded shadow-lg w-full max-w-xs mx-auto my-10">
+                <div className="bg-white p-8 rounded shadow-lg w-full max-w-xs mr-14 my-10">
                     <h2 className="text-2xl font-normal mb-10 ml-3">Book Appointment</h2>
                     <form>
                         <div className="mb-4">
@@ -44,7 +41,6 @@ export const HomePage = () => {
                             <div className="relative">
                                 <select className="w-full px-3 py-2 border rounded bg-gray-50 bg-opacity-75 appearance-none pr-10">
                                     <option className="bg-gray-50 bg-opacity-10">Please Select</option>
-                                    {/* Add your department options here */}
                                 </select>
                                 <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
                                     <svg className="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
@@ -58,7 +54,6 @@ export const HomePage = () => {
                             <div className="relative">
                                 <select className="w-full px-3 py-2 border rounded bg-gray-50 bg-opacity-75 appearance-none pr-10">
                                     <option className="bg-gray-50 bg-opacity-10">4:00 Available</option>
-                                    {/* Add your time options here */}
                                 </select>
                                 <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
                                     <svg className="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
